@@ -1,0 +1,278 @@
+[uacf7_step_start step1]
+<!-- Row 1: Name & Email -->
+<div class="form-row">
+    <div class="form-group">
+        <label>Your name</label>
+        [text* your-name autocomplete:name]
+    </div>
+    <div class="form-group">
+        <label>Your email</label>
+        [email* your-email autocomplete:email]
+    </div>
+</div>
+
+<!-- Row 2: Phone & Event Date -->
+<div class="form-row">
+    <div class="form-group">
+        <label>Phone number</label>
+        [tel* your-phone autocomplete:tel]
+    </div>
+    <div class="form-group">
+        <label>Event date</label>
+        [date* event-date]
+    </div>
+</div>
+
+<!-- Row 3: Event Venue -->
+<div class="form-row">
+    <div class="form-group full-width">
+        <label>Event venue</label>
+        [text* event-venue]
+    </div>
+</div>
+[uacf7_step_end end] [uacf7_step_start step2]
+<!-- Wedding Style Selection (Images) -->
+<div class="form-row">
+    <label>Select your wedding style:</label>
+    <div class="form-group image-options leftrightimages">
+        <label>
+            <input type="radio" name="wedding-style" value="bohemian" />
+            <img src="https://o6p.a14.myftpupload.com/wp-content/uploads/2024/08/wedding-intro.webp" alt="Bohemian"
+                width="128" height="128" />
+        </label>
+        <label>
+            <input type="radio" name="wedding-style" value="traditional" />
+            <img src="https://o6p.a14.myftpupload.com/wp-content/uploads/2024/08/wedding-intro.webp" alt="Traditional"
+                width="128" height="128" />
+        </label>
+    </div>
+    <div class="form-group image-options leftrightimages">
+        <label>
+            <input type="radio" name="wedding-style" value="rustic" />
+            <img src="https://o6p.a14.myftpupload.com/wp-content/uploads/2024/08/wedding-intro.webp" alt="Rustic"
+                width="128" height="128" />
+        </label>
+        <label>
+            <input type="radio" name="wedding-style" value="modern" />
+            <img src="https://o6p.a14.myftpupload.com/wp-content/uploads/2024/08/wedding-intro.webp" alt="Modern"
+                width="128" height="128" />
+        </label>
+    </div>
+</div>
+[uacf7_step_end end] [uacf7_step_start step3]
+<!-- Flower Type Selection (Images) -->
+<div class="form-row">
+    <label>Types of flowers:</label>
+    <div class="form-group image-options leftrightimages">
+        <label>
+            <input type="radio" name="flowers" value="tropical" />
+            <img src="https://o6p.a14.myftpupload.com/wp-content/uploads/2024/08/wedding-intro.webp" alt="Tropical"
+                width="128" height="128" />
+        </label>
+        <label>
+            <input type="radio" name="flowers" value="roses" />
+            <img src="https://o6p.a14.myftpupload.com/wp-content/uploads/2024/08/wedding-intro.webp" alt="Roses"
+                width="128" height="128" />
+        </label>
+    </div>
+    <div class="form-group image-options leftrightimages">
+        <label>
+            <input type="radio" name="flowers" value="premium" />
+            <img src="https://o6p.a14.myftpupload.com/wp-content/uploads/2024/08/wedding-intro.webp" alt="Premium"
+                width="128" height="128" />
+        </label>
+        <label>
+            <input type="radio" name="flowers" value="greenery" />
+            <img src="https://o6p.a14.myftpupload.com/wp-content/uploads/2024/08/wedding-intro.webp" alt="Greenery"
+                width="128" height="128" />
+        </label>
+    </div>
+    <div class="form-group image-options leftrightimages">
+        <label>
+            <input type="radio" name="flowers" value="wild" />
+            <img src="https://o6p.a14.myftpupload.com/wp-content/uploads/2024/08/wedding-intro.webp" alt="Wild"
+                width="128" height="128" />
+        </label>
+        <label>
+            <input type="radio" name="flowers" value="seasonal" />
+            <img src="https://o6p.a14.myftpupload.com/wp-content/uploads/2024/08/wedding-intro.webp" alt="Seasonal"
+                width="128" height="128" />
+        </label>
+    </div>
+</div>
+[uacf7_step_end end] [uacf7_step_start step4]
+<!-- Color Palette Selection -->
+<div class="form-row display-column-contact-form">
+    <label>Pick your color palette:</label>
+    <div class="form-group palette-options">
+        <input type="radio" name="color-palette" value="palette1" id="palette1" />
+        <label for="palette1" style="background-color: #ffb6c1">&nbsp;</label>
+
+        <input type="radio" name="color-palette" value="palette2" id="palette2" />
+        <label for="palette2" style="background-color: #ffd700">&nbsp;</label>
+
+        <input type="radio" name="color-palette" value="palette3" id="palette3" />
+        <label for="palette3" style="background-color: #7fff00">&nbsp;</label>
+
+        <input type="radio" name="color-palette" value="palette4" id="palette4" />
+        <label for="palette4" style="background-color: #00bfff">&nbsp;</label>
+    </div>
+</div>
+[uacf7_step_end end] [uacf7_step_start step5]
+<!-- Budget Options -->
+<div class="form-row display-column-contact-form">
+    <label>What is your budget:</label>
+    <div class="form-group radio-options">
+        <label>
+            <input type="radio" name="budget" value="less-than-10k" /> Less than 10k
+        </label>
+        <label>
+            <input type="radio" name="budget" value="10k-20k" /> 10k-20k
+        </label>
+        <label>
+            <input type="radio" name="budget" value="20k-30k" /> 20k-30k
+        </label>
+        <label>
+            <input type="radio" name="budget" value="30k-40k" /> 30k-40k
+        </label>
+        <label>
+            <input type="radio" name="budget" value="undecided" /> Undecided
+        </label>
+    </div>
+</div>
+[uacf7_step_end end] [uacf7_step_start step6]
+<!-- Type and Quantity of Arrangements -->
+<div class="form-row">
+    <label>Type and quantity of arrangements:</label>
+    <div class="form-group image-options sub-categories-class-contact-form">
+        <div class="arrangement-group">
+            <label>Bridal bouquet</label>
+            [number bridal-bouquet-quantity]
+        </div>
+        <div class="arrangement-group">
+            <label>Bridesmaid’s bouquet</label>
+            [number bridesmaid-bouquet-quantity]
+        </div>
+        <div class="arrangement-group">
+            <label>Corsage</label>
+            [number corsage-quantity]
+        </div>
+        <div class="arrangement-group">
+            <label>Centerpieces</label>
+            [number centerpieces-quantity]
+        </div>
+    </div>
+    <div class="form-group image-options sub-categories-class-contact-form">
+        <div class="arrangement-group">
+            <label>Bridal bouquet</label>
+            [number bridal-bouquet-quantity]
+        </div>
+        <div class="arrangement-group">
+            <label>Bridesmaid’s bouquet</label>
+            [number bridesmaid-bouquet-quantity]
+        </div>
+        <div class="arrangement-group">
+            <label>Corsage</label>
+            [number corsage-quantity]
+        </div>
+        <div class="arrangement-group">
+            <label>Centerpieces</label>
+            [number centerpieces-quantity]
+        </div>
+    </div>
+</div>
+[uacf7_step_end end] [uacf7_step_start step7]
+<!-- Additional Notes -->
+<div class="form-row">
+    <div class="form-group full-width">
+        <label>Additional notes (optional)</label>
+        [textarea your-notes]
+    </div>
+</div>
+
+<!-- Submit Button -->
+[submit "Submit"] [uacf7_step_end end]
+
+<style>
+    .form-row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+        flex-wrap: wrap;
+    }
+
+    .form-group,
+    .arrangement-group {
+        flex: 1;
+        margin-right: 10px;
+    }
+
+    .form-group:last-child,
+    .arrangement-group:last-child {
+        margin-right: 0;
+    }
+
+    .full-width {
+        flex: 1;
+        margin-right: 0;
+    }
+
+    .image-options img {
+        display: block;
+        width: 128px;
+        height: 128px;
+        margin-right: 10px;
+    }
+
+    .radio-options,
+    .palette-options {
+        display: flex;
+        gap: 10px;
+    }
+
+    .palette-options label {
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        cursor: pointer;
+        border: 2px solid transparent;
+    }
+
+    .palette-options input:checked+label {
+        border: 2px solid black;
+    }
+
+    .leftrightimages label {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .display-column-contact-form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .display-column-contact-form label {
+        margin-bottom: 10px;
+    }
+
+    .sub-categories-class-contact-form {
+        display: flex;
+        flex-direction: row;
+        flex: none;
+        margin-top: 20px;
+    }
+
+    @media screen and (max-width: 840px) {
+        .sub-categories-class-contact-form {
+            flex-direction: column !important;
+        }
+    }
+
+    @media screen and (max-width: 520px) {
+        .form-row {
+            display: block !important;
+        }
+</style>
