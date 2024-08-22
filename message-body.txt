@@ -1,0 +1,21 @@
+From: [your-name] 
+Email: [your-email]
+Phone: [your-phone]
+Event Date: [event-date]
+Event Venue: [event-venue]
+Wedding Style: [wedding-style]
+Flowers Type: [flowers]
+Color Palette: [color-palette]
+Budget: [budget]
+
+Type & Quantity: 
+Bridal Bouquet: [bridal-bouquet-quantity]
+Bridesmaid’s Bouquet: [bridesmaid-bouquet-quantity]
+Corsage: [corsage-quantity]
+Centerpieces: [centerpieces-quantity]
+
+Message Body:
+[your-notes]
+
+-- 
+This is a notification that a contact form was submitted on your website ([_site_title] [_site_url]).
